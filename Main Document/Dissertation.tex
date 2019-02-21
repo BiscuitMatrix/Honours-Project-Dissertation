@@ -1,0 +1,86 @@
+% My Dissertation in TeX
+
+\documentclass{article} %\documentclass{IEEEtran}
+
+% Packages
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{graphicx}
+
+% Bibliography Package and Style
+\usepackage{natbib}
+%\bibliographystyle{jmr}
+\bibliographystyle{agsm}
+
+\title{Investigating the Impact of AI Techniques on Inter-Flock Dynamics}
+\date{2019-02-17}
+\author{Matt Hunter}
+
+% This acts as a container - Works like a pragma region basically
+% document is a key word, meaning you must have it containing the whole document
+\begin{document}
+
+% gobble - no numbers
+% arabic - arabic numbers (1, 2, 3, 4, etc.)
+% roman - roman numbers (i, ii, iii, iv, etc.)
+\pagenumbering{gobble} 
+
+% produce a title page
+\maketitle
+\newpage
+
+% Set the initial page numberings to roman numerals to separate page numberings
+\pagenumbering{roman}
+\doublespacing
+
+	\tableofcontents
+	
+	\listoffigures
+	\listoftables
+
+\newpage
+\pagenumbering{arabic} 
+\singlespacing
+
+	% The abstract is placed in the containing folder and so can be accessed via relative path-ing
+	% Container file for the abstract section
+	\input{../Abstract}
+	
+\newpage
+
+	% Container file for the background and literature review section
+	\input{../Background_and_Literature_Review}
+
+\newpage
+
+	% Container file for the Method Section
+	%\input{../Method}
+
+\newpage
+	
+	\input{../Notes}
+
+\newpage
+
+	\section{Figure and Table Notes}
+
+	\begin{figure}
+	 	\caption{Dummy figure}
+	\end{figure}
+	
+	\begin{table}
+	 	\caption{Dummy table}
+	\end{table}
+
+\newpage
+
+	% An alternative formatting for if it seems better to place these at the end of the document
+	%\begin{appendix}
+	%	 \listoffigures
+	%	 \listoftables
+	%\end{appendix}
+	
+	\bibliography{../Bibliography/bibliography}
+	
+
+\end{document}
