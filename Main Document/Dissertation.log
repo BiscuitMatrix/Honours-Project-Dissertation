@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.19)  21 FEB 2019 21:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.2.19)  21 FEB 2019 21:36
 entering extended mode
 **./Dissertation.tex
 (Dissertation.tex
@@ -114,18 +114,18 @@ LaTeX Info: Redefining \cite on input line 694.
 ) (Dissertation.aux)
 \openout1 = `Dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
-LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 
 (F:\LaTeX\MiKTeX_2.9\tex/context/base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -203,34 +203,24 @@ ertation.toc)
 \openout5 = `Dissertation.lot'.
 
  [1] (../Abstract.tex) [1]
-(../Background_and_Literature_Review.tex) [2] (../Notes.tex
-<../Images/boat.jpg, id=19, 246.1697pt x 115.93312pt>
-File: ../Images/boat.jpg Graphic file (type jpg)
-<use ../Images/boat.jpg>
-Package pdftex.def Info: ../Images/boat.jpg  used on input line 9.
-(pdftex.def)             Requested size: 345.0pt x 162.48392pt.
- [3 <../Images/boat.jpg>] [4]) [5] (Dissertation.bbl) [6] (Dissertation.aux) ) 
+(../Background_and_Literature_Review.tex) [2] (Dissertation.bbl) [3]
+(Dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 2446 strings out of 492946
- 32999 string characters out of 3139065
- 101363 words of memory out of 3000000
- 6302 multiletter control sequences out of 15000+200000
+ 2434 strings out of 492946
+ 32738 string characters out of 3139065
+ 99355 words of memory out of 3000000
+ 6296 multiletter control sequences out of 15000+200000
  9369 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,25p,281b,219s stack positions out of 5000i,500n,10000p,200000b,50000s
-<
-F:/LaTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><F:/LaTeX/MiKTeX_
-2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><F:/LaTeX/MiKTeX_2.9/fonts/type1/
-public/amsfonts/cm/cmex10.pfb><F:/LaTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb><F:/LaTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><F:
-/LaTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><F:/LaTeX/MiKTeX_2.9
-/fonts/type1/public/amsfonts/cm/cmr12.pfb><F:/LaTeX/MiKTeX_2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr17.pfb><F:/LaTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cm
-r7.pfb><F:/LaTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><F:/LaTeX
-/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Dissertation.pdf (8 pages, 161252 bytes).
+ 41i,6n,25p,281b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
+<F:/LaTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmbx10.
+pfb><F:/LaTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><F:/LaTeX/Mi
+KTeX_2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><F:/LaTeX/MiKTeX_2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr12.pfb><F:/LaTeX/MiKTeX_2.9/fonts/type1/public/amsfon
+ts/cm/cmr17.pfb><F:/LaTeX/MiKTeX_2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Dissertation.pdf (5 pages, 93508 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
+ 42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

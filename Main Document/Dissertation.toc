@@ -8,5 +8,3 @@
 \contentsline {subsection}{\numberline {2.1}Flocking Algorithm}{2}% 
 \contentsline {subsection}{\numberline {2.2}Genetic Algorithm}{2}% 
 \contentsline {subsection}{\numberline {2.3}The Research Landscape}{2}% 
-\contentsline {section}{\numberline {3}Notes}{3}% 
-\contentsline {section}{\numberline {4}Figure and Table Notes}{5}% 
