@@ -1,5 +1,18 @@
 \begin{thebibliography}{xx}
 
+\harvarditem{Flake}{1998}{flake1998computational}
+Flake, G.  \harvardyearleft 1998\harvardyearright , {\em The Computational
+  Beauty of Nature: Computer Explorations of Fractals, Chaos, Complex Systems,
+  and Adaptation}, A Bradford book, Cambridge, Massachusetts.
+\newline\harvardurl{https://books.google.co.uk/books?id=0aUhuv7fjxMC}
+
+\harvarditem{Jorge \harvardand\ Marques}{2012}{Jorge2414}
+Jorge, P.~E. \harvardand\ Marques, P. A.~M.  \harvardyearleft
+  2012\harvardyearright , `Decision-making in pigeon flocks: a democratic view
+  of leadership', {\em Journal of Experimental Biology} {\bf
+  215}(14),~2414--2417.
+\newline\harvardurl{http://jeb.biologists.org/content/215/14/2414}
+
 \harvarditem{Reynolds}{1987}{Reynolds:1987:FHS:37402.37406}
 Reynolds, C.~W.  \harvardyearleft 1987\harvardyearright , `Flocks, herds and
   schools: A distributed behavioral model', {\em SIGGRAPH Comput. Graph.} {\bf
