@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2019.3.6)  6 MAR 2019 18:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2019.3.11)  12 MAR 2019 16:03
 entering extended mode
 **./Dissertation.tex
 (Dissertation.tex
@@ -193,8 +193,8 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ) [1
 
-{C:/Users/HCLMccullough/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(Dissertation.toc)
+{C:/Users/Matt Hunter/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Diss
+ertation.toc)
 \tf@toc=\write3
 \openout3 = `Dissertation.toc'.
 
@@ -206,48 +206,46 @@ G,.JBIG2,.JB2,.eps]
 \tf@lot=\write5
 \openout5 = `Dissertation.lot'.
 
- [1] (../Abstract.tex)
-[1] (../Introduction.tex
+ [1] (../Abstract.tex) [1]
+(../Introduction.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
- [2]) [3] (../Background_and_Literature_Review.tex
 
-Package natbib Warning: Citation `Swarm: Nature's Incredible Invasions' on page
- 4 undefined on input line 8.
+[2]) [3] (../Background_and_Literature_Review.tex [4]) [5] (Dissertation.bbl
+Overfull \hbox (1.03674pt too wide) in paragraph at lines 4--8
+\OT1/cmr/bx/n/10 URL: \OT1/cmr/m/it/10 http://www.sciencedirect.com/science/art
+icle/pii/S0303264797017085 
+ []
 
-) [4] (Dissertation.bbl
-Underfull \hbox (badness 1057) in paragraph at lines 10--15
+
+Underfull \hbox (badness 1057) in paragraph at lines 22--27
 []\OT1/cmr/m/n/10 Jorge, P. E. & Mar-ques, P. A. M. (2012), `Decision-making in
  pi-geon
  []
 
-)
-
-Package natbib Warning: There were undefined citations.
-
-[5] (Dissertation.aux) ) 
+) [6] (Dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 2463 strings out of 492969
- 33549 string characters out of 3135778
- 100837 words of memory out of 3000000
- 6294 multiletter control sequences out of 15000+200000
+ 2472 strings out of 492973
+ 34109 string characters out of 3135912
+ 101946 words of memory out of 3000000
+ 6302 multiletter control sequences out of 15000+200000
  9369 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,6n,25p,657b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Dissertation.pdf (7 pages, 116474 bytes).
+ 41i,6n,25p,1186b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Dissertation.pdf (8 pages, 124923 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
+ 57 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

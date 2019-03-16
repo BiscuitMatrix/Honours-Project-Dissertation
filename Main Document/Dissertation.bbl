@@ -1,10 +1,22 @@
 \begin{thebibliography}{xx}
 
+\harvarditem{Dorigo \harvardand\ Gambardella}{1997}{DORIGO199773}
+Dorigo, M. \harvardand\ Gambardella, L.~M.  \harvardyearleft
+  1997\harvardyearright , `Ant colonies for the travelling salesman problem',
+  {\em Biosystems} {\bf 43}(2),~73 -- 81.
+\newline\harvardurl{http://www.sciencedirect.com/science/article/pii/S0303264797017085}
+
 \harvarditem{Flake}{1998}{flake1998computational}
 Flake, G.  \harvardyearleft 1998\harvardyearright , {\em The Computational
   Beauty of Nature: Computer Explorations of Fractals, Chaos, Complex Systems,
   and Adaptation}, A Bradford book, Cambridge, Massachusetts.
 \newline\harvardurl{https://books.google.co.uk/books?id=0aUhuv7fjxMC}
+
+\harvarditem{Husselmann \harvardand\ Hawick}{2011}{husselmannsimulating}
+Husselmann, A. \harvardand\ Hawick, K.  \harvardyearleft 2011\harvardyearright
+  , Simulating species interactions and complex emergence in multiple flocks of
+  boids with gpus, {\em in} `Proc. IASTED International Conference on Parallel
+  and Distributed', IASTED, pp.~100--107.
 
 \harvarditem{Jorge \harvardand\ Marques}{2012}{Jorge2414}
 Jorge, P.~E. \harvardand\ Marques, P. A.~M.  \harvardyearleft
@@ -18,5 +30,12 @@ Reynolds, C.~W.  \harvardyearleft 1987\harvardyearright , `Flocks, herds and
   schools: A distributed behavioral model', {\em SIGGRAPH Comput. Graph.} {\bf
   21}(4),~25--34.
 \newline\harvardurl{http://doi.acm.org/10.1145/37402.37406}
+
+\harvarditem[Watts et~al.]{Watts, Nagy, de~Perera \harvardand\
+  Biro}{2016}{doi:10.1098/rsbl.2016.0544}
+Watts, I., Nagy, M., de~Perera, T.~B. \harvardand\ Biro, D.  \harvardyearleft
+  2016\harvardyearright , `Misinformed leaders lose influence over pigeon
+  flocks', {\em Biology Letters} {\bf 12}(9),~20160544.
+\newline\harvardurl{https://royalsocietypublishing.org/doi/abs/10.1098/rsbl.2016.0544}
 
 \end{thebibliography}
