@@ -1,5 +1,19 @@
 \begin{thebibliography}{xx}
 
+\harvarditem[Al~Toufailia et~al.]{Al~Toufailia, Couvillon, Ratnieks
+  \harvardand\ Gr{\"u}ter}{2013}{AlToufailia2013}
+Al~Toufailia, H., Couvillon, M.~J., Ratnieks, F. L.~W. \harvardand\ Gr{\"u}ter,
+  C.  \harvardyearleft 2013\harvardyearright , `Honey bee waggle dance
+  communication: signal meaning and signal noise affect dance follower
+  behaviour', {\em Behavioral Ecology and Sociobiology} {\bf 67}(4),~549--556.
+\newline\harvardurl{https://doi.org/10.1007/s00265-012-1474-5}
+
+\harvarditem[Chen et~al.]{Chen, Kobayashi, Huang \harvardand\
+  Nakao}{2006}{ChenY.-W.2006Gafo}
+Chen, Y.-W., Kobayashi, K., Huang, X. \harvardand\ Nakao, Z.  \harvardyearleft
+  2006\harvardyearright , Genetic algorithms for optimization of boids model,
+  Vol. 4252, Springer Verlag, pp.~55--62.
+
 \harvarditem{Dorigo \harvardand\ Gambardella}{1997}{DORIGO199773}
 Dorigo, M. \harvardand\ Gambardella, L.~M.  \harvardyearleft
   1997\harvardyearright , `Ant colonies for the travelling salesman problem',
@@ -12,11 +26,27 @@ Flake, G.  \harvardyearleft 1998\harvardyearright , {\em The Computational
   and Adaptation}, A Bradford book, Cambridge, Massachusetts.
 \newline\harvardurl{https://books.google.co.uk/books?id=0aUhuv7fjxMC}
 
+\harvarditem{Hartman \harvardand\ Benes}{2006}{HartmanC2006Ab}
+Hartman, C. \harvardand\ Benes, B.  \harvardyearleft 2006\harvardyearright ,
+  `Autonomous boids', {\em Computer Animation And Virtual Worlds} {\bf
+  17}(3-4),~199--206.
+
 \harvarditem{Husselmann \harvardand\ Hawick}{2011}{husselmannsimulating}
 Husselmann, A. \harvardand\ Hawick, K.  \harvardyearleft 2011\harvardyearright
   , Simulating species interactions and complex emergence in multiple flocks of
   boids with gpus, {\em in} `Proc. IASTED International Conference on Parallel
   and Distributed', IASTED, pp.~100--107.
+
+\harvarditem[Jaderberg et~al.]{Jaderberg, Czarnecki, Dunning, Marris, Lever,
+  Castaneda, Beattie, Rabinowitz, Morcos, Ruderman, Sonnerat, Green, Deason,
+  Leibo, Silver, Hassabis, Kavukcuoglu \harvardand\
+  Graepel}{2018}{JaderbergMax2018Hpif}
+Jaderberg, M., Czarnecki, W.~M., Dunning, I., Marris, L., Lever, G., Castaneda,
+  A.~G., Beattie, C., Rabinowitz, N.~C., Morcos, A.~S., Ruderman, A., Sonnerat,
+  N., Green, T., Deason, L., Leibo, J.~Z., Silver, D., Hassabis, D.,
+  Kavukcuoglu, K. \harvardand\ Graepel, T.  \harvardyearleft
+  2018\harvardyearright , `Human-level performance in first-person multiplayer
+  games with population-based deep reinforcement learning'.
 
 \harvarditem{Jorge \harvardand\ Marques}{2012}{Jorge2414}
 Jorge, P.~E. \harvardand\ Marques, P. A.~M.  \harvardyearleft
@@ -24,6 +54,13 @@ Jorge, P.~E. \harvardand\ Marques, P. A.~M.  \harvardyearleft
   of leadership', {\em Journal of Experimental Biology} {\bf
   215}(14),~2414--2417.
 \newline\harvardurl{http://jeb.biologists.org/content/215/14/2414}
+
+\harvarditem{{Kawabayashi} \harvardand\ {Chen}}{2008}{4604156}
+{Kawabayashi}, H. \harvardand\ {Chen}, Y.  \harvardyearleft
+  2008\harvardyearright , Interactive system of artificial fish school based on
+  the extended boid model, {\em in} `2008 International Conference on
+  Intelligent Information Hiding and Multimedia Signal Processing',
+  pp.~721--724.
 
 \harvarditem{Reynolds}{1987}{Reynolds:1987:FHS:37402.37406}
 Reynolds, C.~W.  \harvardyearleft 1987\harvardyearright , `Flocks, herds and

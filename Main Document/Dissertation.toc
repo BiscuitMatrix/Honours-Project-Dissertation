@@ -1,7 +1,7 @@
 \contentsline {section}{\numberline {1}Abstract}{1}
 \contentsline {paragraph}{Context}{1}
 \contentsline {paragraph}{Aim}{1}
-\contentsline {paragraph}{Method - description here needs updating!}{1}
+\contentsline {paragraph}{Method}{1}
 \contentsline {paragraph}{Results}{1}
 \contentsline {paragraph}{Conclusion}{1}
 \contentsline {section}{\numberline {2}Introduction}{2}
@@ -15,13 +15,17 @@
 \contentsline {paragraph}{Decision Making}{4}
 \contentsline {paragraph}{Eusocial Behaviour}{4}
 \contentsline {paragraph}{Dynamic Adaptation to Environmental Pressures}{4}
+\contentsline {paragraph}{Learning and Curiosity}{4}
+\contentsline {paragraph}{Flocking and Emergence}{4}
+\contentsline {paragraph}{The Advantages of Flocking to Species}{4}
 \contentsline {paragraph}{Why this is relevant}{4}
-\contentsline {subsection}{\numberline {3.2}Flocking Algorithm}{4}
+\contentsline {subsection}{\numberline {3.2}Flocking Algorithm}{5}
 \contentsline {paragraph}{Reynolds Boids}{5}
 \contentsline {paragraph}{Expanded Boids}{5}
 \contentsline {paragraph}{Decision Making}{5}
 \contentsline {paragraph}{Learning and Curiosity}{5}
 \contentsline {subsection}{\numberline {3.3}The Interaction of Flocking Algorithms}{5}
 \contentsline {subsection}{\numberline {3.4}Genetic Algorithm}{5}
-\contentsline {subsection}{\numberline {3.5}The Effect of AI on Flocking Algorithms}{5}
-\contentsline {subsection}{\numberline {3.6}The Interaction of an AI Flock with another Flock}{5}
+\contentsline {subsection}{\numberline {3.5}The Potential Effect of AI on Flocking Algorithms}{6}
+\contentsline {subsection}{\numberline {3.6}The effect of Genetic Algorithms on Boids}{6}
+\contentsline {subsection}{\numberline {3.7}The Interaction of an AI Flock with another Flock}{6}
