@@ -1,6 +1,6 @@
 % My Dissertation in TeX
 
-\documentclass{article} %\documentclass{IEEEtran}
+\documentclass{article}
 
 % Packages
 \usepackage{setspace}
@@ -11,65 +11,76 @@
 \usepackage{natbib}
 %\bibliographystyle{jmr}
 \bibliographystyle{agsm}
+\setcitestyle{authoryear,open={(},close={)}}
+% citep{key} - To cite in parentheses --> (author, 2000)
+% citet{key} - To cite in text --> author (2000)
 
 %\usepackage[style=numeric,citestyle=alphabetic,bibstyle=authortitle]{biblatex}
 
-\title{Investigating the Impact of AI Techniques on Inter-Flock Dynamics}
-\date{2019-02-17}
-\author{Matt Hunter}
-
-% This acts as a container - Works like a pragma region basically
-% document is a key word, meaning you must have it containing the whole document
 \begin{document}
 
-% gobble - no numbers
-% arabic - arabic numbers (1, 2, 3, 4, etc.)
-% roman - roman numbers (i, ii, iii, iv, etc.)
-\pagenumbering{gobble} 
+\begin{titlepage}
+	\begin{center}
+       	 	\vspace*{1cm}
 
-% produce a title page
-\maketitle
+        		\Huge
+        		\textbf{Investigating the Impact of a Genetic Algorithm on Inter-Flock Dynamics}
+ 
+        		\vspace{1.5cm}
+ 
+        		Matthew James Hunter
+ 
+        		\vfill
+
+        		BSc(Hons) Computer Games Technology
+
+		2019
+ 
+        		\vspace{0.8cm}
+ 
+        		\includegraphics[width=0.4\textwidth]{../Images/Abertay_Coat_Of_Arms}
+ 
+        		\Large
+		School of Design and Informatics\\
+		University of Abertay Dundee\\
+    	\end{center}
+\end{titlepage}
+
+% Contents and Acknowledgements
 \newpage
-
-% Set the initial page numberings to roman numerals to separate page numberings
 \pagenumbering{roman}
 \doublespacing
-
 	\tableofcontents
-	
 	\listoffigures
 	\listoftables
+\newpage
+	%\input{../Acknowlegements}
 
+% Main Document
+
+\singlespacing
+\newpage
+	\input{../Abstract}
 \newpage
 \pagenumbering{arabic} 
-\singlespacing
-
-	\input{../Abstract}
-	
-\newpage
-
 	\input{../Introduction}
-
 \newpage
-
-	\input{../Background_and_Literature_Review}
-
+	\input{../Literature_Review}
 \newpage
-
-	%\input{../Method}
-
+	\input{../Methodology}
 \newpage
-	
+	\input{../Results}
+\newpage
+	\input{../Discussion}
+\newpage
+	\input{../Conclusion}
+\newpage
+	\input{../Appendices}
+\newpage
 	%\input{../Notes}
 
+% Bilbiography:
 \newpage
-
 	\bibliography{../Bibliography/bibliography}
-
-	% An alternative formatting for if it seems better to place these at the end of the document
-	%\begin{appendix}
-	%	 \listoffigures
-	%	 \listoftables
-	%\end{appendix}
 	
 \end{document}

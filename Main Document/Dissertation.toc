@@ -1,31 +1,28 @@
-\contentsline {section}{\numberline {1}Abstract}{1}
-\contentsline {paragraph}{Context}{1}
-\contentsline {paragraph}{Aim}{1}
-\contentsline {paragraph}{Method}{1}
-\contentsline {paragraph}{Results}{1}
-\contentsline {paragraph}{Conclusion}{1}
-\contentsline {section}{\numberline {2}Introduction}{2}
-\contentsline {subsection}{\numberline {2.1}General Introduction and Background Information}{2}
-\contentsline {subsection}{\numberline {2.2}Aim, Objectives and Research Question}{2}
-\contentsline {paragraph}{Aim}{2}
-\contentsline {paragraph}{Objectives}{2}
-\contentsline {paragraph}{Research Question}{3}
-\contentsline {section}{\numberline {3}Literature Review}{4}
-\contentsline {subsection}{\numberline {3.1}Flocking in Nature - Swarm Behaviour}{4}
-\contentsline {paragraph}{Decision Making}{4}
-\contentsline {paragraph}{Eusocial Behaviour}{4}
-\contentsline {paragraph}{Dynamic Adaptation to Environmental Pressures}{4}
-\contentsline {paragraph}{Learning and Curiosity}{4}
-\contentsline {paragraph}{Flocking and Emergence}{4}
-\contentsline {paragraph}{The Advantages of Flocking to Species}{4}
-\contentsline {paragraph}{Why this is relevant}{4}
-\contentsline {subsection}{\numberline {3.2}Flocking Algorithm}{5}
-\contentsline {paragraph}{Reynolds Boids}{5}
-\contentsline {paragraph}{Expanded Boids}{5}
-\contentsline {paragraph}{Decision Making}{5}
-\contentsline {paragraph}{Learning and Curiosity}{5}
-\contentsline {subsection}{\numberline {3.3}The Interaction of Flocking Algorithms}{5}
-\contentsline {subsection}{\numberline {3.4}Genetic Algorithm}{5}
-\contentsline {subsection}{\numberline {3.5}The Potential Effect of AI on Flocking Algorithms}{6}
-\contentsline {subsection}{\numberline {3.6}The effect of Genetic Algorithms on Boids}{6}
-\contentsline {subsection}{\numberline {3.7}The Interaction of an AI Flock with another Flock}{6}
+\contentsline {section}{\numberline {1}Introduction}{1}% 
+\contentsline {subsection}{\numberline {1.1}General Introduction and Background Information}{1}% 
+\contentsline {subsection}{\numberline {1.2}Aim, Objectives and Research Question}{1}% 
+\contentsline {paragraph}{Aim}{1}% 
+\contentsline {paragraph}{Objectives}{1}% 
+\contentsline {paragraph}{Research Question}{2}% 
+\contentsline {section}{\numberline {2}Literature Review}{3}% 
+\contentsline {subsection}{\numberline {2.1}Flocking in Nature - Swarm Behaviour}{3}% 
+\contentsline {paragraph}{Decision Making}{3}% 
+\contentsline {paragraph}{Eusocial Behaviour}{3}% 
+\contentsline {paragraph}{Dynamic Adaptation to Environmental Pressures}{3}% 
+\contentsline {paragraph}{Learning and Curiosity}{3}% 
+\contentsline {paragraph}{Flocking and Emergence}{3}% 
+\contentsline {paragraph}{The Advantages of Flocking to Species}{3}% 
+\contentsline {paragraph}{Why this is relevant}{3}% 
+\contentsline {subsection}{\numberline {2.2}Flocking Algorithm}{4}% 
+\contentsline {paragraph}{Reynolds Boids}{4}% 
+\contentsline {paragraph}{Expanded Boids}{4}% 
+\contentsline {paragraph}{Decision Making}{4}% 
+\contentsline {paragraph}{Learning and Curiosity}{4}% 
+\contentsline {subsection}{\numberline {2.3}The Interaction of Flocking Algorithms}{4}% 
+\contentsline {subsection}{\numberline {2.4}Genetic Algorithm}{4}% 
+\contentsline {subsection}{\numberline {2.5}The Potential Effect of AI on Flocking Algorithms}{5}% 
+\contentsline {subsection}{\numberline {2.6}The effect of Genetic Algorithms on Boids}{5}% 
+\contentsline {subsection}{\numberline {2.7}The Interaction of an AI Flock with another Flock}{5}% 
+\contentsline {section}{\numberline {3}Methodology}{6}% 
+\contentsline {subsection}{\numberline {3.1}Test Environment Design}{6}% 
+\contentsline {subsection}{\numberline {3.2}Software Application Design}{6}% 

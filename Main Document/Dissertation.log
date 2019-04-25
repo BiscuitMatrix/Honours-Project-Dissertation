@@ -1,15 +1,18 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2019.3.11)  22 MAR 2019 23:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930) (preloaded format=pdflatex 2019.4.25)  25 APR 2019 23:22
 entering extended mode
-**./Dissertation.tex
-(Dissertation.tex
-LaTeX2e <2018-04-01> patch level 5
+**"//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Main Docum
+ent/Dissertation.tex"
 
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/latex\base\article
-.cls"
+("//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Main Docume
+nt/Dissertation.tex"
+LaTeX2e <2018-12-01>
+
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/base\article.cls"
 Document Class: article 2018/09/03 v1.4i Standard LaTeX document class
 
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/latex\base\size10.
-clo"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/base\size10.clo"
 File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 )
 \c@part=\count80
@@ -23,33 +26,35 @@ File: size10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+)
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/latex\amsmath\amsm
-ath.sty"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/amsmath\amsmath.sty"
 Package: amsmath 2018/12/01 v2.17b AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
 
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/latex\amsmath\amst
-ext.sty"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/latex\amsmath\amsg
-en.sty"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks14
 \ex@=\dimen103
 ))
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/latex\amsmath\amsb
-sy.sty"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen104
 )
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/latex\amsmath\amso
-pn.sty"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/amsmath\amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count88
@@ -62,8 +67,8 @@ LaTeX Info: Redefining \overline on input line 385.
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
+\Mathstrutbox@=\box27
+\strutbox@=\box28
 \big@size=\dimen105
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
@@ -90,62 +95,67 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
 )
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/latex\graphics\gra
-phicx.sty"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/graphics\graphicx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/latex\graphics\key
-val.sty"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/latex\graphics\gra
-phics.sty"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/graphics\graphics.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/latex\graphics\tri
-g.sty"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/latex\graphics-cfg
-\graphics.cfg"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/latex\graphics-def
-\pdftex.def"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/graphics-def\pdftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
+)
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip46
 \bibsep=\skip47
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count100
 )
-(Dissertation.aux)
+("//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Main Docume
+nt\Dissertation.aux")
 \openout1 = `Dissertation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/cont
+ext/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count101
 \scratchdimen=\dimen114
-\scratchbox=\box28
+\scratchbox=\box29
 \nofMPsegments=\count102
 \nofMParguments=\count103
 \everyMPshowfont=\toks20
@@ -155,55 +165,50 @@ LaTeX Font Info:    ... okay on input line 23.
 \makeMPintoPDFobject=\count106
 \everyMPtoPDFconversion=\toks21
 )
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/latex\oberdiek\eps
-topdf-base.sty"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/generic\oberdiek\i
-nfwarerr.sty"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/gene
+ric/oberdiek\infwarerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/latex\oberdiek\grf
-ext.sty"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/generic\oberdiek\k
-vdefinekeys.sty"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/gene
+ric/oberdiek\kvdefinekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/generic\oberdiek\l
-txcmds.sty"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/gene
+ric/oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/latex\oberdiek\kvo
-ptions.sty"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/oberdiek\kvoptions.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/generic\oberdiek\k
-vsetkeys.sty"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/gene
+ric/oberdiek\kvsetkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/generic\oberdiek\e
-texcmds.sty"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/gene
+ric/oberdiek\etexcmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/generic\oberdiek\i
-fluatex.sty"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/gene
+ric/oberdiek\ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/generic\oberdiek\p
-dftexcmds.sty"
+))))
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/gene
+ric/oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/generic\oberdiek\i
-fpdf.sty"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/gene
+ric/oberdiek\ifpdf.sty"
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -217,71 +222,95 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-) [1
+)
+<../Images/Abertay_Coat_Of_Arms.png, id=1, 200.75pt x 232.87pt>
+File: ../Images/Abertay_Coat_Of_Arms.png Graphic file (type png)
+<use ../Images/Abertay_Coat_Of_Arms.png>
+Package pdftex.def Info: ../Images/Abertay_Coat_Of_Arms.png  used on input line
+ 41.
+(pdftex.def)             Requested size: 137.9979pt x 160.08705pt.
+ [1
 
-{C:/Users/Matt Hunter/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Diss
-ertation.toc)
+{//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/data/pdftex/confi
+g/pdftex.map} <//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertatio
+n/Images/Abertay_Coat_Of_Arms.png>]
+("//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Main Docume
+nt\Dissertation.toc")
 \tf@toc=\write3
 \openout3 = `Dissertation.toc'.
 
- (Dissertation.lof)
+
+("//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Main Docume
+nt\Dissertation.lof")
 \tf@lof=\write4
 \openout4 = `Dissertation.lof'.
 
- (Dissertation.lot)
+
+("//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Main Docume
+nt\Dissertation.lot")
 \tf@lot=\write5
 \openout5 = `Dissertation.lot'.
 
  [1]
-(../Abstract.tex) [1] (../Introduction.tex
+(//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Abstract.tex
+! Undefined control sequence.
+l.6 \Small
+          
+? 
+) [2]
+(//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Introduction
+.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
 
-("C:\Users\Matt Hunter\AppData\Local\Programs\MiKTeX 2.9\tex/latex\base\omscmr.
-fd"
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
- [2]) [3] (../Background_and_Literature_Review.tex [4] [5]) [6]
-(Dissertation.bbl
-Underfull \hbox (badness 1137) in paragraph at lines 5--10
-[]\OT1/cmr/m/n/10 Al To-ufailia, H., Cou-vil-lon, M. J., Rat-nieks, F. L. W. & 
-Gruter, C.
- []
+ [1]) [2]
+(//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Literature_R
+eview.tex [3] [4]) [5]
+(//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Methodology.
+tex) [6]
+(//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Results.tex)
 
-
+(//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Discussion.t
+ex)
+(//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Conclusion.t
+ex)
+(//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Appendices.t
+ex)
+("//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Main Docume
+nt\Dissertation.bbl"
 Overfull \hbox (1.03674pt too wide) in paragraph at lines 18--22
 \OT1/cmr/bx/n/10 URL: \OT1/cmr/m/it/10 http://www.sciencedirect.com/science/art
 icle/pii/S0303264797017085 
  []
 
-
-Underfull \hbox (badness 1057) in paragraph at lines 52--57
-[]\OT1/cmr/m/n/10 Jorge, P. E. & Mar-ques, P. A. M. (2012), `Decision-making in
- pi-geon
- []
-
 ) [7] (Dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 2489 strings out of 492973
- 36040 string characters out of 3135912
- 102378 words of memory out of 3000000
- 6318 multiletter control sequences out of 15000+200000
- 9369 words of font info for 34 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 41i,6n,25p,1186b,187s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Matt Hunter/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Matt Hunter/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Matt 
-Hunter/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.p
-fb><C:/Users/Matt Hunter/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr12.pfb><C:/Users/Matt Hunter/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Matt Hunter/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Matt Hunter
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Dissertation.pdf (9 pages, 132134 bytes).
+ 2491 strings out of 494846
+ 38341 string characters out of 3175728
+ 98198 words of memory out of 3000000
+ 6090 multiletter control sequences out of 15000+200000
+ 6564 words of font info for 24 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 41i,4n,25p,1251b,218s stack positions out of 5000i,500n,10000p,200000b,50000s
+<//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portabl
+e/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb><//StuHome/HomeDrive
+2$/1401562/Desktop/MikTeX Portable/texmfs/install/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/inst
+all/fonts/type1/public/amsfonts/cm/cmr10.pfb><//StuHome/HomeDrive2$/1401562/Des
+ktop/MikTeX Portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></
+/StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/install/fonts/type1
+/public/amsfonts/cm/cmr17.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Por
+table/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb><//StuHome/HomeD
+rive2$/1401562/Desktop/MikTeX Portable/texmfs/install/fonts/type1/public/amsfon
+ts/cm/cmti10.pfb>
+Output written on Dissertation.pdf (10 pages, 164236 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
+ 66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
