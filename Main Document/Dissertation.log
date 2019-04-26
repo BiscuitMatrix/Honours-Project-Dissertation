@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930) (preloaded format=pdflatex 2019.4.25)  25 APR 2019 23:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930) (preloaded format=pdflatex 2019.4.25)  26 APR 2019 15:07
 entering extended mode
 **"//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Main Docum
 ent/Dissertation.tex"
@@ -253,10 +253,6 @@ nt\Dissertation.lot")
 
  [1]
 (//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Abstract.tex
-! Undefined control sequence.
-l.6 \Small
-          
-? 
 ) [2]
 (//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Introduction
 .tex
@@ -272,7 +268,64 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Literature_R
 eview.tex [3] [4]) [5]
 (//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Methodology.
-tex) [6]
+tex
+! Missing } inserted.
+<inserted text> 
+                }
+l.22 \end{split}
+                
+? 
+! Undefined control sequence.
+<argument> \split@tag \begin {split} $\bm 
+                                          {\hat {C}}$ &= \frac { LFCVector} ...
+l.22 \end{split}
+                
+? 
+
+! Package amsmath Error: \hat allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \end{split}
+                
+? 
+! Missing { inserted.
+<inserted text> 
+                {
+l.22 \end{split}
+                
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.22 \end{split}
+                
+? 
+! Undefined control sequence.
+<argument> \split@tag \begin {split} $\bm 
+                                          {\hat {C}}$ &= \frac { LFCVector} ...
+l.22 \end{split}
+                
+? 
+
+! Package amsmath Error: \hat allowed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \end{split}
+                
+? 
+! Missing { inserted.
+<inserted text> 
+                {
+l.22 \end{split}
+                
+? 
+) [6]
 (//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Results.tex)
 
 (//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Discussion.t
@@ -290,27 +343,30 @@ icle/pii/S0303264797017085
 
 ) [7] (Dissertation.aux) ) 
 Here is how much of TeX's memory you used:
- 2491 strings out of 494846
- 38341 string characters out of 3175728
+ 2492 strings out of 494846
+ 38343 string characters out of 3175728
  98198 words of memory out of 3000000
- 6090 multiletter control sequences out of 15000+200000
+ 6091 multiletter control sequences out of 15000+200000
  6564 words of font info for 24 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,4n,25p,1251b,218s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,15n,25p,1251b,218s stack positions out of 5000i,500n,10000p,200000b,50000s
 <//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portabl
 e/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx10.pfb><//StuHome/HomeDrive
 2$/1401562/Desktop/MikTeX Portable/texmfs/install/fonts/type1/public/amsfonts/c
 m/cmbx12.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/inst
-all/fonts/type1/public/amsfonts/cm/cmr10.pfb><//StuHome/HomeDrive2$/1401562/Des
-ktop/MikTeX Portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb></
-/StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/install/fonts/type1
-/public/amsfonts/cm/cmr17.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Por
-table/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb><//StuHome/HomeD
+all/fonts/type1/public/amsfonts/cm/cmmi10.pfb><//StuHome/HomeDrive2$/1401562/De
+sktop/MikTeX Portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/install/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Po
+rtable/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb><//StuHome/HomeD
 rive2$/1401562/Desktop/MikTeX Portable/texmfs/install/fonts/type1/public/amsfon
-ts/cm/cmti10.pfb>
-Output written on Dissertation.pdf (10 pages, 164236 bytes).
+ts/cm/cmr7.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/in
+stall/fonts/type1/public/amsfonts/cm/cmsy10.pfb><//StuHome/HomeDrive2$/1401562/
+Desktop/MikTeX Portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pf
+b>
+Output written on Dissertation.pdf (10 pages, 185182 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
+ 74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

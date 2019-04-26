@@ -10,4 +10,62 @@ An application was produced to test the hypothesis. This application used the Ga
 The application simulated an environment, in which two flocks interact (one of which is improved via a genetic algorithm) within a limited space of scarce resources, with the aim of finding out if a flocking algorithm improved by a genetic algorithm can outcompete one without.
 
 \subsection{Flocking Algorithm Design}
+The design of the flocking algorithm was produced through research into how they are produced and came through via an iterartive approach.
+
+The flocking algorithm was originally designed primarily by adapting the example from \citet{flockingprocessingorg}. As this was a very clear representation of how to design a basic flocking algorithm from a code perspective. There were also clear areas for improving the efficiency of the algorithm presented too. The most major way was combining the calculations for Alignment, Separation and Cohesion. This was so each boid was not checking against all others for each force calculation, and only needed to check against all other boids once instead of three times; doing that was simple and reduced the requirement for N-Body problem solutions like the Barnes-Hut algorithm later on. The other main way was combining the calculations required for each force as they use shared variables, so calculating them once instead of multiple times for each force also increased efficiency.
+
+This worked nicely for the original three forces from citet{Reynolds:1987:FHS:37402.37406}
+
+The boids' forces as they are in the program in its final iteration were modelled primarily off \citet{4604156}. This is a modified version of the expanded boids algorithm, optimised for the environment in which it is placed in. The forces each boid experiences are: Cohesion, Alignment, Separation, Food Attraction and Flock Avoidance. Each of these forces are the multiplication of a unit vector and their respective weight, mathematically represented in Eq.\ref{forcevector_equation}
+
+\begin{equation}
+\boldsymbol{Force Vector} = \boldsymbol{v} \cdot \boldsymbol{w}
+\label{forcevector_equation}
+\end{equation}
+
+\subsubsection{Cohesion} 
+This is the first of the boid forces, cohesion pulls the boid in the direction of flock members, in this case towards its local flock centre. The boids local flock centre is determined by its neighbours in communicable range and is the average position of those flock members. 
+\begin{equation}
+\begin{split}
+	\boldsymbol{\hat{v}_{coh}} &= \frac{ LFCVector} {|LFCVector|} \\
+	\boldsymbol{w_{coh}} &= \frac{(|LFCPos - BoidPos|)^2} {30 \cdot FlockSize}
+\end{split}
+\label{cohesion_equation}
+\end{equation}
+
+\subsubsection{Alignment}
+\begin{equation}
+\begin{split}
+	\boldsymbol{\hat{v}_{ali}} &= \frac{ LFVelVector} {|LFVelVector|} \\
+	\boldsymbol{w_{ali}} &= \frac{1} {10 \cdot |(LFCPos - BoidPos)|}
+\end{split}
+\label{alignment_equation}
+\end{equation}
+
+\subsubsection{Separation}
+\begin{equation}
+\begin{split}
+	\boldsymbol{\hat{v}_{sep}} &= -\frac{ClosestNeighbourVector} {| ClosestNeighbourVector|} \\
+	\boldsymbol{w_{sep}} &= 0.025 \cdot  \Big(\frac{NeighbourCount} {|ClosestNeighbourVector|}\Big)^2
+\end{split}
+\label{separation_equation}
+\end{equation}
+
+\subsubsection{Food Attraction}
+\begin{equation}
+\begin{split}
+	\boldsymbol{\hat{v}_{fda}} &= \frac{ClosestResourceVector} {|ClosestResourceVector|} \\
+	\boldsymbol{w_{fda}} &= 0.0025 \cdot |ClosestResource|^2 + \frac{36} {|ClosestResource|^2}
+\end{split}
+\label{foodattraction_equation}
+\end{equation}
+
+\subsubsection{Flock Avoidance}
+\begin{equation}
+\begin{split}
+	\boldsymbol{\hat{v}_{fla}} &= -\frac{OtherFlockVector} {|OtherFlockVector|} \\
+	\boldsymbol{w_{fla}} &= \frac{300} {|AvgOtherFlockPos|}
+\end{split}
+\label{flockavoidance_equation}
+\end{equation}
 
