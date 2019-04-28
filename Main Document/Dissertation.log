@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930) (preloaded format=pdflatex 2019.4.25)  27 APR 2019 00:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930) (preloaded format=pdflatex 2019.4.25)  27 APR 2019 23:03
 entering extended mode
 **"//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Main Docum
 ent/Dissertation.tex"
@@ -270,45 +270,91 @@ eview.tex [3] [4]) [5]
 (//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Methodology.
 tex
 
-LaTeX Warning: File `../Images/ClassDiagram.png' not found on input line 10.
+LaTeX Warning: Reference `fig:classdiagram' on page 6 undefined on input line 1
+3.
 
+<../Images/boat.jpg, id=37, 246.1697pt x 115.93312pt>
+File: ../Images/boat.jpg Graphic file (type jpg)
+<use ../Images/boat.jpg>
+Package pdftex.def Info: ../Images/boat.jpg  used on input line 16.
+(pdftex.def)             Requested size: 345.0pt x 162.48392pt.
 
-! Package pdftex.def Error: File `../Images/ClassDiagram.png' not found: using 
-draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10 ...th=\linewidth]{../Images/ClassDiagram.png}
-                                                  
-? 
-[6]
-
-LaTeX Warning: Reference `fig:EnvScrnshot' on page 7 undefined on input line 18
+LaTeX Warning: Reference `fig:EnvScrnshot' on page 6 undefined on input line 24
 .
 
-<../Images/EnvironmentScreenshot.png, id=41, 718.93594pt x 428.35031pt>
+<../Images/EnvironmentScreenshot.png, id=38, 718.93594pt x 428.35031pt>
 File: ../Images/EnvironmentScreenshot.png Graphic file (type png)
 <use ../Images/EnvironmentScreenshot.png>
 Package pdftex.def Info: ../Images/EnvironmentScreenshot.png  used on input lin
-e 20.
+e 26.
 (pdftex.def)             Requested size: 345.0pt x 205.56006pt.
+[6 <//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Images/bo
+at.jpg>]
 
 Package natbib Warning: Citation `flockingprocessingorg' on page 7 undefined on
- input line 27.
+ input line 35.
 
 [7 <//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Images/En
 vironmentScreenshot.png>]
 
 LaTeX Warning: Reference `forcevector_equation' on page 8 undefined on input li
-ne 31.
+ne 39.
 
 
 LaTeX Warning: Reference `cohesion_equation' on page 8 undefined on input line 
-42.
+51.
 
-[8]) [9]
+[8]
+
+LaTeX Warning: Reference `alignment_equation' on page 9 undefined on input line
+ 63.
+
+
+LaTeX Warning: Reference `cohesion_equation' on page 9 undefined on input line 
+71.
+
+
+LaTeX Warning: Reference `separation_equation' on page 9 undefined on input lin
+e 75.
+
+
+LaTeX Warning: Reference `foodattraction_equation' on page 9 undefined on input
+ line 87.
+
+[9]
+
+LaTeX Warning: Reference `flockavoidance_equation' on page 10 undefined on inpu
+t line 99.
+
+
+LaTeX Warning: Reference `fig:geneticflow' on page 10 undefined on input line 1
+14.
+
+File: ../Images/boat.jpg Graphic file (type jpg)
+<use ../Images/boat.jpg>
+Package pdftex.def Info: ../Images/boat.jpg  used on input line 117.
+(pdftex.def)             Requested size: 345.0pt x 162.48392pt.
+
+LaTeX Warning: Reference `gaweights' on page 10 undefined on input line 124.
+
+! Extra alignment tab has been changed to \cr.
+<template> }$\hfill \endtemplate 
+                                 
+l.133 	\end{split}
+                  
+? 
+! Extra alignment tab has been changed to \cr.
+<template> }$\hfill \endtemplate 
+                                 
+l.133 	\end{split}
+                  
+? 
+
+Overfull \hbox (123.48447pt too wide) detected at line 135
+[]
+ []
+
+[10]) [11]
 (//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Results.tex)
 
 (//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Discussion.t
@@ -328,7 +374,7 @@ icle/pii/S0303264797017085
 
 Package natbib Warning: There were undefined citations.
 
-[10] (Dissertation.aux)
+[12] (Dissertation.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -337,13 +383,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 2523 strings out of 494846
- 38887 string characters out of 3175728
- 99198 words of memory out of 3000000
- 6111 multiletter control sequences out of 15000+200000
- 9181 words of font info for 33 fonts, out of 3000000 for 9000
+ 2529 strings out of 494846
+ 39003 string characters out of 3175728
+ 101198 words of memory out of 3000000
+ 6117 multiletter control sequences out of 15000+200000
+ 9013 words of font info for 32 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,20n,25p,1251b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,20n,25p,1323b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
 <//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/install/fonts/t
 ype1/public/amsfonts/cm/cmbx10.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTe
 X Portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb><//StuHome/
@@ -361,11 +407,10 @@ eDrive2$/1401562/Desktop/MikTeX Portable/texmfs/install/fonts/type1/public/amsf
 onts/cm/cmr7.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/
 install/fonts/type1/public/amsfonts/cm/cmsy10.pfb><//StuHome/HomeDrive2$/140156
 2/Desktop/MikTeX Portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.
-pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/install/fonts
-/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Dissertation.pdf (13 pages, 259077 bytes).
+pfb>
+Output written on Dissertation.pdf (15 pages, 274393 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
+ 105 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
