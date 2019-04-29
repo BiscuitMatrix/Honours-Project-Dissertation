@@ -146,10 +146,10 @@ Fitness Function = BoidHealth + \boldsymbol{w_{1}} \cdot FlockHealth - \boldsymb
 \label{fitfunc}
 \end{equation}
 Where $BoidHealth$ is the health of the boid, $FlockHealth$ is the combined health values of all boids in the flock, and $OtherFlockHealth$ is the combined health of all boids in the competing flock.
-This fitness function in Eq.\ref{fitfunc} was designed to take into account the three important factors to a boid in a competitive flock: accounting for its own health was to represent a survival instinct, adding the total flock health to the equation meant improvements to itself over time should be in benefit the flock as a whole, and taking away the weighted total health of the other flock meant the boid had a focus on improving by decreasing the health of the other flock. This fitness function was intended to produce behaviour in the boids that was designed to outcompete the regular flocking algorithm.
+This fitness function in Eq.\ref{fitfunc} was designed to take into account the three important factors to a boid in a competitive flock: accounting for its own health was to represent a survival instinct, adding the total flock health to the equation meant improvements to itself over time should be in benefit the flock as a whole, and taking away the weighted total health of the other flock meant the boid had a focus on improving by decreasing the health of the other flock. This fitness function was intended to produce behaviour in the boids that outcompeted the regular flocking algorithm in the environment.
 
 \subsubsection{Selection}
-The application contained two different kinds of selection algorithm: Roulette Wheel Selection (RWS) and Stochastic Universal Sampling (SUS), both used in answering the research question. In both selection algorithms bigger probabilities are given 
+The application contained two different kinds of selection algorithm: Roulette Wheel Selection (RWS) and Stochastic Universal Sampling (SUS), both used in answering the research question. In both selection algorithms, increased probabilities of being chosen were given to those populations with better overall fitness. These methods were chosen as they provided selection pressure toward fitter individuals, while also not prematurely coming to a solution which may have been more likely to be a local maxima. 
 
 
 \subsubsection{Generations}
