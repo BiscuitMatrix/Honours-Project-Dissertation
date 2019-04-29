@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930) (preloaded format=pdflatex 2019.4.25)  27 APR 2019 23:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930) (preloaded format=pdflatex 2019.4.25)  29 APR 2019 12:08
 entering extended mode
 **"//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Main Docum
 ent/Dissertation.tex"
@@ -271,90 +271,126 @@ eview.tex [3] [4]) [5]
 tex
 
 LaTeX Warning: Reference `fig:classdiagram' on page 6 undefined on input line 1
-3.
+4.
 
 <../Images/boat.jpg, id=37, 246.1697pt x 115.93312pt>
 File: ../Images/boat.jpg Graphic file (type jpg)
 <use ../Images/boat.jpg>
-Package pdftex.def Info: ../Images/boat.jpg  used on input line 16.
+Package pdftex.def Info: ../Images/boat.jpg  used on input line 17.
 (pdftex.def)             Requested size: 345.0pt x 162.48392pt.
 
-LaTeX Warning: Reference `fig:EnvScrnshot' on page 6 undefined on input line 24
+LaTeX Warning: Reference `fig:EnvScrnshot' on page 6 undefined on input line 25
 .
 
 <../Images/EnvironmentScreenshot.png, id=38, 718.93594pt x 428.35031pt>
 File: ../Images/EnvironmentScreenshot.png Graphic file (type png)
 <use ../Images/EnvironmentScreenshot.png>
 Package pdftex.def Info: ../Images/EnvironmentScreenshot.png  used on input lin
-e 26.
+e 27.
 (pdftex.def)             Requested size: 345.0pt x 205.56006pt.
 [6 <//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Images/bo
 at.jpg>]
 
 Package natbib Warning: Citation `flockingprocessingorg' on page 7 undefined on
- input line 35.
+ input line 36.
 
 [7 <//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Images/En
 vironmentScreenshot.png>]
 
 LaTeX Warning: Reference `forcevector_equation' on page 8 undefined on input li
-ne 39.
+ne 42.
 
 
 LaTeX Warning: Reference `cohesion_equation' on page 8 undefined on input line 
-51.
+56.
 
 [8]
 
 LaTeX Warning: Reference `alignment_equation' on page 9 undefined on input line
- 63.
+ 68.
 
 
 LaTeX Warning: Reference `cohesion_equation' on page 9 undefined on input line 
-71.
+76.
 
 
 LaTeX Warning: Reference `separation_equation' on page 9 undefined on input lin
-e 75.
+e 80.
 
 
 LaTeX Warning: Reference `foodattraction_equation' on page 9 undefined on input
- line 87.
+ line 92.
 
 [9]
 
 LaTeX Warning: Reference `flockavoidance_equation' on page 10 undefined on inpu
-t line 99.
+t line 104.
 
 
 LaTeX Warning: Reference `fig:geneticflow' on page 10 undefined on input line 1
-14.
+18.
 
-File: ../Images/boat.jpg Graphic file (type jpg)
-<use ../Images/boat.jpg>
-Package pdftex.def Info: ../Images/boat.jpg  used on input line 117.
-(pdftex.def)             Requested size: 345.0pt x 162.48392pt.
+<../Images/GAAlgorithm.png, id=57, 492.84125pt x 392.46625pt>
+File: ../Images/GAAlgorithm.png Graphic file (type png)
+<use ../Images/GAAlgorithm.png>
+Package pdftex.def Info: ../Images/GAAlgorithm.png  used on input line 120.
+(pdftex.def)             Requested size: 345.0pt x 274.74844pt.
 
-LaTeX Warning: Reference `gaweights' on page 10 undefined on input line 124.
+LaTeX Warning: Reference `gaweights' on page 10 undefined on input line 127.
 
-! Extra alignment tab has been changed to \cr.
-<template> }$\hfill \endtemplate 
-                                 
-l.133 	\end{split}
-                  
+[10] [11 <//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Ima
+ges/GAAlgorithm.png>]
+
+LaTeX Warning: Reference `fitfunc' on page 12 undefined on input line 143.
+
+
+LaTeX Warning: Reference `fitfunc' on page 12 undefined on input line 149.
+
+[12]
+
+LaTeX Warning: Reference `speduptime' on page 13 undefined on input line 158.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.160 	
+       
 ? 
-! Extra alignment tab has been changed to \cr.
-<template> }$\hfill \endtemplate 
-                                 
-l.133 	\end{split}
-                  
+! Display math should end with $$.
+<to be read again> 
+                   \par 
+l.160 	
+       
 ? 
 
-Overfull \hbox (123.48447pt too wide) detected at line 135
-[]
- []
+! LaTeX Error: Bad math environment delimiter.
 
-[10]) [11]
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.162 \end{equation}
+                    
+? 
+! You can't use `\eqno' in vertical mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.162 \end{equation}
+                    
+? 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.162 \end{equation}
+                    
+? 
+! Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.162 \end{equation}
+                    
+? 
+) [13]
 (//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Results.tex)
 
 (//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Discussion.t
@@ -374,7 +410,7 @@ icle/pii/S0303264797017085
 
 Package natbib Warning: There were undefined citations.
 
-[12] (Dissertation.aux)
+[14] (Dissertation.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -383,34 +419,35 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 2529 strings out of 494846
- 39003 string characters out of 3175728
+ 2536 strings out of 494846
+ 39158 string characters out of 3175728
  101198 words of memory out of 3000000
- 6117 multiletter control sequences out of 15000+200000
+ 6123 multiletter control sequences out of 15000+200000
  9013 words of font info for 32 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,20n,25p,1323b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,20n,25p,1289b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
 <//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/install/fonts/t
 ype1/public/amsfonts/cm/cmbx10.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTe
 X Portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb><//StuHome/
 HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/install/fonts/type1/public/a
-msfonts/cm/cmex10.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/te
-xmfs/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb><//StuHome/HomeDrive2$/1
-401562/Desktop/MikTeX Portable/texmfs/install/fonts/type1/public/amsfonts/cm/cm
-mib10.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/install
-/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><//StuHome/HomeDrive2$/1401562/
-Desktop/MikTeX Portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb
+msfonts/cm/cmbx7.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/tex
+mfs/install/fonts/type1/public/amsfonts/cm/cmex10.pfb><//StuHome/HomeDrive2$/14
+01562/Desktop/MikTeX Portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/install/f
+onts/type1/public/amsfonts/cm/cmmib10.pfb><//StuHome/HomeDrive2$/1401562/Deskto
+p/MikTeX Portable/texmfs/install/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb
 ><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/install/fonts/ty
-pe1/public/amsfonts/cm/cmr12.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX 
-Portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb><//StuHome/Hom
+pe1/public/amsfonts/cm/cmr10.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX 
+Portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb><//StuHome/Hom
 eDrive2$/1401562/Desktop/MikTeX Portable/texmfs/install/fonts/type1/public/amsf
-onts/cm/cmr7.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/
-install/fonts/type1/public/amsfonts/cm/cmsy10.pfb><//StuHome/HomeDrive2$/140156
-2/Desktop/MikTeX Portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.
-pfb>
-Output written on Dissertation.pdf (15 pages, 274393 bytes).
+onts/cm/cmr17.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs
+/install/fonts/type1/public/amsfonts/cm/cmr7.pfb><//StuHome/HomeDrive2$/1401562
+/Desktop/MikTeX Portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.p
+fb><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/install/fonts/
+type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Dissertation.pdf (17 pages, 294388 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
+ 117 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

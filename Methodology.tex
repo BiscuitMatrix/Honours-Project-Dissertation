@@ -155,15 +155,37 @@ The application contained two different kinds of selection algorithm: Roulette W
 \subsubsection{Generations}
 Part of running the GA was simulating the environment in sped-up runs for the genetic algorithm to improve itself over successive generations. This was done by cutting off unnecessary calculations, that meant all generations occurred in the update function in a loop until the maximum number of generations had been reached. This cut out the requirements for rendering or indeed any calculations not related to the simulation of boid movement and running the genetic algorithm.
 
-The calculations for the simulation physics were also cut down to speed up simulation time in each generational loop. By increasing the time per physics calculation you effectively speed up the time passed each simulation. For example: If one second of simulation time happens in one frame, then if the application runs at sixty frames per second, you can get sixty second of simulation time per real time second.
+The calculations for the simulation physics were also cut down to speed up simulation time in each generational loop. By increasing the time per physics calculation you effectively speed up the time passed each simulation. For example: If one second of simulation time happens in one frame, then if the application runs at sixty frames per second, you can get sixty second of simulation time per real time second, this is displayed in Eq.\ref{speduptime}.
+\begin{equation}
+	\boldsymbol{SimTime}(s^{-1}) = SimTimeStep \cdot FramesPerSecond
+	\label{speduptime}
+\end{equation}
+Where $SimTime$ is the amount of time passed in simulation per second, $SimTimeStep$ is the length
 
-Each generation has a simulation time limit before
+Based on this sped up time, each generation had a simulation time limit before moving onto the next one. This had to be balanced as it needed to be a long enough time for real data to come through to get an accurate etimation of fitness and short enough so that the genetic algorithms improvement didn't take too long. The amount of time given per generation will be discussed in the results section as a factor that is controlled for each test due to this.
 
 %%%%%%%%%%%%%%%%%%%%
 
 
 %%%%%%%%%%%%%%%%%%%%
 \subsection{Testing Criteria and Metrics}
+The testing criteria has been designed with answering the research question in mind. 
+
+\subsubsection{Controlled Factors}
+In a simulations with so many variables, there were many to consider controlling for to identify trends that might otherwise be obscured. 
+
+\subsubsection{Alleles}
+The frequency of each allele in a gene was used to identify top alleles, and identify if there was convergence of values across simulations. If there is 
+
+\subsubsection{Genotype Analysis}
+Analysing the genotype values will give some key resluts
+
+\subsubsection{Phenotype Analysis}
+How did the genotypical representations identified as important actually have an affect on the boid weights, and so therefore its behaviour in the environment?
+
+\subsubsection{GA Flock Strategies}
+We will identify observations made about the 
+
 Maybe write this one once youve actually done the tests youre wanting to talk about tbh because you have zero test design rn, and have given it thought, but not enough to write on, whereas if you just do the tests then you've got a whole thing to setup and the tests can be designed by trial and error. 
 %****[AND PLS WRITE IN UR NOTEBOOK AS U GO ALONG - DO A NUMBERED STEP BY STEP FOR URSELF, FEELS TIMECONSUING BUT SOOO FKN TIMEDSAVING IN THE LONG RUN]****
 
