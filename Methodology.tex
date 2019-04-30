@@ -7,18 +7,6 @@ GitHub Desktop was used as the tool for source control, ensuring risks to the pr
 
 
 %%%%%%%%%%%%%%%%
-\subsection{Application Design}
-The application was designed through an iterative process, and required many rethinks in its design, 
-%[develop: trail-and-error, with ongoing tests to monitor the progress of the flock behaviour]
-
-Fig.\ref{fig:classdiagram} displays the class diagram
-
-\begin{figure}
-	\includegraphics[width=\linewidth]{../Images/boat.jpg}
-	\caption{A UML Class Diagram of the Application}
-	\label{fig:classdiagram}
-\end{figure}
-
 \subsection{Test Environment Design}
 The application simulated an environment in which two flocks interact (one of which is improved via a genetic algorithm) within a limited space of scarce resources, with the aim of finding out if a flocking algorithm improved by a genetic algorithm can out-compete one without.
 
@@ -63,6 +51,13 @@ The first of the boid forces, Cohesion pulls the boid in the direction of flock 
 \end{equation}
 Where $LFCVector$ represents the vector from the boid to the local flock centre, $LFCPos$ is the position of the local flock centre, $BoidPos$ is the position of the boid and $FlockSize$ is the number of flock members as a whole.
 
+This can be seen visually represented in Fig.\ref{fig:cohesion}. It displays the cohesion force increasing as a boid moved away from the local flock centre.
+\begin{figure}
+	\includegraphics[width=\linewidth]{../Images/cohesion.png}
+	\caption{A Graph Displaying the Cohesion Boid Force}
+	\label{fig:cohesion}
+\end{figure}
+
 
 \subsubsection{Alignment}
 Alignment is a vector which accelerates the boid in the average direction of its neighbouring boids. This produces the common direction of the flock as the boids individually move around. By taking the average velocity of neighbouring boids as a direction vector and multiplying it one over the distance between the local flock centre and the boid itself, a suitable alignment vector is produced. Below is Eq.\ref{alignment_equation} describing the two components of the alignment vector:
@@ -75,6 +70,12 @@ Alignment is a vector which accelerates the boid in the average direction of its
 \end{equation}
 Where $LFVelVector$ is the average velocity of the local flock members, and $LFCPos$ and $BoidPos$ are the same as in Eq.\ref{cohesion_equation}.
 
+This can be seen visually represented in Fig.\ref{fig:alignment}. It displays the alignment force increasing as a boid moved closer to the local flock centre.
+\begin{figure}
+	\includegraphics[width=\linewidth]{../Images/alignment.png}
+	\caption{A Graph Displaying the Alignment Boid Force}
+	\label{fig:alignment}
+\end{figure}
 
 \subsubsection{Separation}
 Separation is the force that stops the boids from getting too close together. By maintaining enough space between flock members, it grants maneuverability where there would otherwise be collisions (which slow movement down); these could be from obstacles, other moving entities or other boids in the flock. The unit vector that represents the direction for the force to be applied is calculated by taking the negative of the vector to the nearest neighbouring boid; multiplying that by the weighted multiple of the number of neighbours divided by the distance to the closest neighbour produces the separation vector described below in Eq.\ref{separation_equation}:
@@ -87,6 +88,12 @@ Separation is the force that stops the boids from getting too close together. By
 \end{equation}
 Where $ClosestNeighbourVector$ is the vector from the boid to the closest neighbour, and $NeighbourCount$ is the number of neighbouring boids.
 
+This can be seen visually represented in Fig.\ref{fig:separation}. It displays the separation force increasing as the displacement between the nearest flock member and itself decreased. This separation force increased for each neighbouring boid.
+\begin{figure}
+	\includegraphics[width=\linewidth]{../Images/separation.png}
+	\caption{A Graph Displaying the Separation Boid Force}
+	\label{fig:separation}
+\end{figure}
 
 \subsubsection{Food Attraction}
 This provides an accelerative force toward the nearest resource in the environment. This attraction to nearby food sources is the basis for the boids' survival in the scene. The unit vector to the closest resource gives the direction, and it is the weight which gives its relationship to food in terms of distance away. The equations used are described in Eq.\ref{foodattraction_equation}:
@@ -99,6 +106,12 @@ This provides an accelerative force toward the nearest resource in the environme
 \end{equation}
 Where $ClosestResourceVector$ is the vector pointing from the void to the closest resource to it, and $|ClosestResource|$ is the distance to the closest resource.
 
+This can be seen visually represented in Fig.\ref{fig:foodattraction}. It displays relationship the food attraction force has to the displacement squared of the food resource to the boid. It represents two increases in the food attraction force and a minima inbetween, where the food attraction force decreases as the boid gets near to it, but then switches to an increase past a certain point.
+\begin{figure}
+	\includegraphics[width=\linewidth]{../Images/foodattraction.png}
+	\caption{A Graph Displaying the Food Attraction Boid Force}
+	\label{fig:foodattraction}
+\end{figure}
 
 \subsubsection{Flock Avoidance}
 This is a vector that produces a repelling force away from another flock, and increases as the boid gets closer to the other flock; this is what stops the boids from ignoring each other and keeps them in a competitive environment as they will both be competing for those same resources. The mathematical relationship of the two factors produced can be seen in Eq.\ref{flockavoidance_equation}:
@@ -109,7 +122,14 @@ This is a vector that produces a repelling force away from another flock, and in
 \end{split}
 \label{flockavoidance_equation}
 \end{equation}
-Where $OtherFlockVector$ is the vector pointing from the boid to the average position of another flock within interactable range, and $AvgOtherFlockPos$ is the position vector of the average position of another flock within interactable range.
+Where $OtherFlockVector$ is the vector pointing from the boid to the average position of another flock within interactable range, and $AvgOtherFlockPos$ is the vector to the average position of another flock within interactable range.
+
+This can be seen visually represented in Fig.\ref{fig:flockavoidance}. It displays the flock avoidance force increasing as a boid moved closer to the local flock centre.
+\begin{figure}
+	\includegraphics[width=\linewidth]{../Images/flockavoidance.png}
+	\caption{A Graph Displaying the Flock Avoidance Boid Force}
+	\label{fig:flockavoidance}
+\end{figure}
 %%%%%%%%%%%%%%%%%%%
 
 
@@ -138,19 +158,25 @@ Each population produced contained chromosomes unique to that population, which 
 Where $chromo[x]$ represents each gene in the chromosome for that boid, changes of the allele of each gene affect the weights in the scene.
 These weight calculations made up the phenotype representation in the environment space, and determined the behaviour of a boid. 
 
-
-\subsubsection{Evaluation}
+\subsubsection{GA Methods}
+\paragraph{Evaluation}
 At the end of each simulation, each boid was evaluated against the fitness function, which can be seen in Eq.\ref{fitfunc}. The evaluation function then sorted the boids into population types for the selection process. 
 \begin{equation}
 Fitness Function = BoidHealth + \boldsymbol{w_{1}} \cdot FlockHealth - \boldsymbol{w_{2}} \cdot OtherFlockHealth
 \label{fitfunc}
 \end{equation}
 Where $BoidHealth$ is the health of the boid, $FlockHealth$ is the combined health values of all boids in the flock, and $OtherFlockHealth$ is the combined health of all boids in the competing flock.
+
 This fitness function in Eq.\ref{fitfunc} was designed to take into account the three important factors to a boid in a competitive flock: accounting for its own health was to represent a survival instinct, adding the total flock health to the equation meant improvements to itself over time should be in benefit the flock as a whole, and taking away the weighted total health of the other flock meant the boid had a focus on improving by decreasing the health of the other flock. This fitness function was intended to produce behaviour in the boids that outcompeted the regular flocking algorithm in the environment.
 
-\subsubsection{Selection}
+\paragraph{Selection}
 The application contained two different kinds of selection algorithm: Roulette Wheel Selection (RWS) and Stochastic Universal Sampling (SUS), both used in answering the research question. In both selection algorithms, increased probabilities of being chosen were given to those populations with better overall fitness. These methods were chosen as they provided selection pressure toward fitter individuals, while also not prematurely coming to a solution which may have been more likely to be a local maxima. 
 
+\paragraph{Crossover}
+Crossover of genetic data between parents was done as a single-point crossover that was randomly selected along the genotype, once selected the geneotype halves then got swapped. This was selected due to it being one of the more efficient types of crossover involving the least calculations.
+
+\paragraph{Mutation}
+Mutation occured via random increases or decreases of an allele in a randomly selected gene in the genotype, this was intended to be slow enough to not skip over solutions and fast enough to come to solutions quicker.
 
 \subsubsection{Generations}
 Part of running the GA was simulating the environment in sped-up runs for the genetic algorithm to improve itself over successive generations. This was done by cutting off unnecessary calculations, that meant all generations occurred in the update function in a loop until the maximum number of generations had been reached. This cut out the requirements for rendering or indeed any calculations not related to the simulation of boid movement and running the genetic algorithm.
@@ -160,10 +186,9 @@ The calculations for the simulation physics were also cut down to speed up simul
 	\boldsymbol{SimTime}(s^{-1}) = SimTimeStep \cdot FramesPerSecond
 	\label{speduptime}
 \end{equation}
-Where $SimTime$ is the amount of time passed in simulation per second, $SimTimeStep$ is the length
+Where $SimTime$ is the amount of time passed in simulation per second, $SimTimeStep$ is the difference in time for each calcualtion
 
-Based on this sped up time, each generation had a simulation time limit before moving onto the next one. This had to be balanced as it needed to be a long enough time for real data to come through to get an accurate etimation of fitness and short enough so that the genetic algorithms improvement didn't take too long. The amount of time given per generation will be discussed in the results section as a factor that is controlled for each test due to this.
-
+Based on this sped up time, each generation had a simulation time limit before moving onto the next one. This had to be balanced as it needed to be a long enough time for real data to come through to get an accurate estimation of fitness and short enough so that the genetic algorithms improvement didn't take too long. The amount of time given per generation will be discussed in the results section as a factor that is controlled for each test due to this.
 %%%%%%%%%%%%%%%%%%%%
 
 
@@ -172,24 +197,29 @@ Based on this sped up time, each generation had a simulation time limit before m
 The testing criteria has been designed with answering the research question in mind. 
 
 \subsubsection{Controlled Factors}
-In a simulations with so many variables, there were many to consider controlling for to identify trends that might otherwise be obscured. 
+In a simulations with so many variables, there were many to consider controlling for to identify trends that might otherwise be obscured. In this section will be factors identified as necessary to control for when running the simulation and why. Factors that need to be controlled have been mentioned alongside the results produced where relevant.
 
-\subsubsection{Alleles}
-The frequency of each allele in a gene was used to identify top alleles, and identify if there was convergence of values across simulations. If there is 
+Initialising populations was controlled due to two methods being developed in the application, having this controlled meant that it could be made sure there was no effect from changing the population initialisation method. As there were also two different selection menthods developed, controlling for this was important as it was necessary to know in order to make sure runs of the simulation were not accidentally mixed and matched when relevant to producing results, as this could affect the quality of discussion around them and may point toward false conclusions. The selection was always the same during a run of the simulation and so was a factor to consider when producing the data sets. However, this does not need to be controlled for when looking for potential points of convergence in values for each of the boids alleles, as this points toward potential maximas of the solution and is not specific to a selection method.
 
-\subsubsection{Genotype Analysis}
-Analysing the genotype values will give some key resluts
+The probability of mutation was a control factor, keeping it at a fixed value meant the tests could be compared in a temporal manner across generations, especially considering the potential for convergence of data over time. The amount of boids placed in the scene each generation being kept constant meant that the amount of competition for resources was constant across generations and simulation runs. This was similar to the number of resources in the scene, this amount of resources meant more competing with the other flock over food resources, increasing it or decreasing it in different runs could have had an effect on the strategies the flock developed.
 
-\subsubsection{Phenotype Analysis}
+\subsubsection{Data Analysis}
+\paragraph{Allele}
+The frequency of each allele in a gene was used to identify top alleles, and identify if there was convergence of values across simulations. If there was any convergence then that has the potential to be pointing toward maxima in the solution that can point toward the global optimum. 
+
+\paragraph{Genotype}
+Analysing the genotype values will give some key results
+
+\paragraph{Phenotype}
 How did the genotypical representations identified as important actually have an affect on the boid weights, and so therefore its behaviour in the environment?
 
-\subsubsection{GA Flock Strategies}
+\paragraph{GA Flock Strategies}
 We will identify observations made about the 
 
-Maybe write this one once youve actually done the tests youre wanting to talk about tbh because you have zero test design rn, and have given it thought, but not enough to write on, whereas if you just do the tests then you've got a whole thing to setup and the tests can be designed by trial and error. 
+%Maybe write this one once youve actually done the tests youre wanting to talk about tbh because you have zero test design rn, and have given it thought, but not enough to write on, whereas if you just do the tests then you've got a whole thing to setup and the tests can be designed by trial and error. 
 %****[AND PLS WRITE IN UR NOTEBOOK AS U GO ALONG - DO A NUMBERED STEP BY STEP FOR URSELF, FEELS TIMECONSUING BUT SOOO FKN TIMEDSAVING IN THE LONG RUN]****
 
-Test for if the solutions that the GA produce converge at all because thats a sign of potentially finding the global or a significant local maxima in terms of a solution to the problem.
+%Test for if the solutions that the GA produce converge at all because thats a sign of potentially finding the global or a significant local maxima in terms of a solution to the problem.
 
 
 
