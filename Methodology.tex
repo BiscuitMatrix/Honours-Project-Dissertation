@@ -186,7 +186,7 @@ The calculations for the simulation physics were also cut down to speed up simul
 	\boldsymbol{SimTime}(s^{-1}) = SimTimeStep \cdot FramesPerSecond
 	\label{speduptime}
 \end{equation}
-Where $SimTime$ is the amount of time passed in simulation per second, $SimTimeStep$ is the difference in time for each calcualtion
+Where $SimTime$ is the amount of time passed in simulation per actual second, and $SimTimeStep$ is the difference in time for each calcualtion
 
 Based on this sped up time, each generation had a simulation time limit before moving onto the next one. This had to be balanced as it needed to be a long enough time for real data to come through to get an accurate estimation of fitness and short enough so that the genetic algorithms improvement didn't take too long. The amount of time given per generation will be discussed in the results section as a factor that is controlled for each test due to this.
 %%%%%%%%%%%%%%%%%%%%

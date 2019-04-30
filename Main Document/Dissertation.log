@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930) (preloaded format=pdflatex 2019.4.25)  29 APR 2019 12:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930) (preloaded format=pdflatex 2019.4.25)  30 APR 2019 15:21
 entering extended mode
 **"//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Main Docum
 ent/Dissertation.tex"
@@ -126,45 +126,9 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@width=\dimen113
 )
 ("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
-x/natbib\natbib.sty"
-Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip46
-\bibsep=\skip47
-LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count100
-)
-("//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Main Docume
-nt\Dissertation.aux")
-\openout1 = `Dissertation.aux'.
+x/oberdiek\epstopdf.sty"
+Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-
-("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/cont
-ext/base/mkii\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count101
-\scratchdimen=\dimen114
-\scratchbox=\box29
-\nofMPsegments=\count102
-\nofMParguments=\count103
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count104
-\MPscratchDim=\dimen115
-\MPnumerator=\count105
-\makeMPintoPDFobject=\count106
-\everyMPtoPDFconversion=\toks21
-)
 ("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
 x/oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -222,12 +186,52 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
+))
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
+x/natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip46
+\bibsep=\skip47
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count100
+)
+("//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Main Docume
+nt\Dissertation.aux")
+\openout1 = `Dissertation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+
+("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/cont
+ext/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count101
+\scratchdimen=\dimen114
+\scratchbox=\box29
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks20
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen115
+\MPnumerator=\count105
+\makeMPintoPDFobject=\count106
+\everyMPtoPDFconversion=\toks21
 )
 <../Images/Abertay_Coat_Of_Arms.png, id=1, 200.75pt x 232.87pt>
 File: ../Images/Abertay_Coat_Of_Arms.png Graphic file (type png)
 <use ../Images/Abertay_Coat_Of_Arms.png>
 Package pdftex.def Info: ../Images/Abertay_Coat_Of_Arms.png  used on input line
- 41.
+ 42.
 (pdftex.def)             Requested size: 137.9979pt x 160.08705pt.
  [1
 
@@ -256,141 +260,157 @@ nt\Dissertation.lot")
 ) [2]
 (//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Introduction
 .tex
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 26.
 
 ("\\StuHome\HomeDrive2$\1401562\Desktop\MikTeX Portable\texmfs\install\tex/late
 x/base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
  [1]) [2]
 (//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Literature_R
 eview.tex [3] [4]) [5]
 (//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Methodology.
 tex
 
-LaTeX Warning: Reference `fig:classdiagram' on page 6 undefined on input line 1
-4.
-
-<../Images/boat.jpg, id=37, 246.1697pt x 115.93312pt>
-File: ../Images/boat.jpg Graphic file (type jpg)
-<use ../Images/boat.jpg>
-Package pdftex.def Info: ../Images/boat.jpg  used on input line 17.
-(pdftex.def)             Requested size: 345.0pt x 162.48392pt.
-
-LaTeX Warning: Reference `fig:EnvScrnshot' on page 6 undefined on input line 25
+LaTeX Warning: Reference `fig:EnvScrnshot' on page 6 undefined on input line 13
 .
 
-<../Images/EnvironmentScreenshot.png, id=38, 718.93594pt x 428.35031pt>
+<../Images/EnvironmentScreenshot.png, id=37, 718.93594pt x 428.35031pt>
 File: ../Images/EnvironmentScreenshot.png Graphic file (type png)
 <use ../Images/EnvironmentScreenshot.png>
 Package pdftex.def Info: ../Images/EnvironmentScreenshot.png  used on input lin
-e 27.
+e 15.
 (pdftex.def)             Requested size: 345.0pt x 205.56006pt.
-[6 <//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Images/bo
-at.jpg>]
 
-Package natbib Warning: Citation `flockingprocessingorg' on page 7 undefined on
- input line 36.
+Package natbib Warning: Citation `flockingprocessingorg' on page 6 undefined on
+ input line 24.
+
+[6]
+
+LaTeX Warning: Reference `forcevector_equation' on page 7 undefined on input li
+ne 30.
 
 [7 <//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Images/En
 vironmentScreenshot.png>]
 
-LaTeX Warning: Reference `forcevector_equation' on page 8 undefined on input li
-ne 42.
-
-
 LaTeX Warning: Reference `cohesion_equation' on page 8 undefined on input line 
-56.
-
-[8]
-
-LaTeX Warning: Reference `alignment_equation' on page 9 undefined on input line
- 68.
+44.
 
 
-LaTeX Warning: Reference `cohesion_equation' on page 9 undefined on input line 
-76.
+LaTeX Warning: Reference `fig:cohesion' on page 8 undefined on input line 54.
 
+Package epstopdf Info: Source file: <../Images/cohesion.eps>
+(epstopdf)                    date: 2019-04-30 15:12:00
+(epstopdf)                    size: 175409 bytes
+(epstopdf)             Output file: <../Images/cohesion-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=../Images/cohesion-eps-conv
+erted-to.pdf ../Images/cohesion.eps>
+(epstopdf)             \includegraphics on input line 56.
+runsystem(epstopdf --outfile=../Images/cohesion-eps-converted-to.pdf ../Images/
+cohesion.eps)...executed (allowed).
 
-LaTeX Warning: Reference `separation_equation' on page 9 undefined on input lin
-e 80.
+Package epstopdf Info: Result file: <../Images/cohesion-eps-converted-to.pdf>.
 
+! Package pdftex.def Error: File `../Images/cohesion-eps-converted-to.pdf' not 
+found: using draft setting.
 
-LaTeX Warning: Reference `foodattraction_equation' on page 9 undefined on input
- line 92.
-
-[9]
-
-LaTeX Warning: Reference `flockavoidance_equation' on page 10 undefined on inpu
-t line 104.
-
-
-LaTeX Warning: Reference `fig:geneticflow' on page 10 undefined on input line 1
-18.
-
-<../Images/GAAlgorithm.png, id=57, 492.84125pt x 392.46625pt>
-File: ../Images/GAAlgorithm.png Graphic file (type png)
-<use ../Images/GAAlgorithm.png>
-Package pdftex.def Info: ../Images/GAAlgorithm.png  used on input line 120.
-(pdftex.def)             Requested size: 345.0pt x 274.74844pt.
-
-LaTeX Warning: Reference `gaweights' on page 10 undefined on input line 127.
-
-[10] [11 <//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Ima
-ges/GAAlgorithm.png>]
-
-LaTeX Warning: Reference `fitfunc' on page 12 undefined on input line 143.
-
-
-LaTeX Warning: Reference `fitfunc' on page 12 undefined on input line 149.
-
-[12]
-
-LaTeX Warning: Reference `speduptime' on page 13 undefined on input line 158.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.160 	
-       
-? 
-! Display math should end with $$.
-<to be read again> 
-                   \par 
-l.160 	
-       
-? 
-
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
+See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 \end{equation}
-                    
+l.56 	\includegraphics{../Images/cohesion.eps}
+                                              
 ? 
-! You can't use `\eqno' in vertical mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.162 \end{equation}
-                    
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.162 \end{equation}
-                    
-? 
-! Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.162 \end{equation}
-                    
-? 
-) [13]
+
+LaTeX Warning: Reference `alignment_equation' on page 8 undefined on input line
+ 63.
+
+[8]
+
+LaTeX Warning: Reference `cohesion_equation' on page 9 undefined on input line 
+71.
+
+
+LaTeX Warning: Reference `fig:alignment' on page 9 undefined on input line 73.
+
+<../Images/alignment.png, id=53, 249.5724pt x 202.356pt>
+File: ../Images/alignment.png Graphic file (type png)
+<use ../Images/alignment.png>
+Package pdftex.def Info: ../Images/alignment.png  used on input line 75.
+(pdftex.def)             Requested size: 149.74458pt x 121.41452pt.
+
+LaTeX Warning: Reference `separation_equation' on page 9 undefined on input lin
+e 81.
+
+
+LaTeX Warning: Reference `fig:separation' on page 9 undefined on input line 91.
+
+
+<../Images/separation.png, id=54, 302.0886pt x 246.6816pt>
+File: ../Images/separation.png Graphic file (type png)
+<use ../Images/separation.png>
+Package pdftex.def Info: ../Images/separation.png  used on input line 93.
+(pdftex.def)             Requested size: 181.25455pt x 148.01009pt.
+[9 <//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Images/al
+ignment.png (PNG copy)>]
+
+LaTeX Warning: Reference `foodattraction_equation' on page 10 undefined on inpu
+t line 99.
+
+
+LaTeX Warning: Reference `fig:foodattraction' on page 10 undefined on input lin
+e 109.
+
+<../Images/foodattraction.png, id=59, 302.0886pt x 246.6816pt>
+File: ../Images/foodattraction.png Graphic file (type png)
+<use ../Images/foodattraction.png>
+Package pdftex.def Info: ../Images/foodattraction.png  used on input line 111.
+(pdftex.def)             Requested size: 181.25455pt x 148.01009pt.
+
+LaTeX Warning: Reference `flockavoidance_equation' on page 10 undefined on inpu
+t line 117.
+
+[10 <//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Images/s
+eparation.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:flockavoidance' on page 11 undefined on input lin
+e 127.
+
+<../Images/flockavoidance.png, id=64, 299.6796pt x 246.6816pt>
+File: ../Images/flockavoidance.png Graphic file (type png)
+<use ../Images/flockavoidance.png>
+Package pdftex.def Info: ../Images/flockavoidance.png  used on input line 129.
+(pdftex.def)             Requested size: 179.80913pt x 148.01009pt.
+
+LaTeX Warning: Reference `fig:geneticflow' on page 11 undefined on input line 1
+38.
+
+<../Images/GAAlgorithm.png, id=65, 492.84125pt x 392.46625pt>
+File: ../Images/GAAlgorithm.png Graphic file (type png)
+<use ../Images/GAAlgorithm.png>
+Package pdftex.def Info: ../Images/GAAlgorithm.png  used on input line 140.
+(pdftex.def)             Requested size: 345.0pt x 274.74844pt.
+[11 <//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Images/f
+oodattraction.png (PNG copy)> <//stuhome/HomeDrive2$/1401562/GitHub/Honours-Pro
+ject-Dissertation/Images/flockavoidance.png (PNG copy)>]
+
+LaTeX Warning: Reference `gaweights' on page 12 undefined on input line 147.
+
+[12 <//stuhome/HomeDrive2$/1401562/GitHub/Honours-Project-Dissertation/Images/G
+AAlgorithm.png>]
+
+LaTeX Warning: Reference `fitfunc' on page 13 undefined on input line 163.
+
+
+LaTeX Warning: Reference `fitfunc' on page 13 undefined on input line 170.
+
+[13]
+
+LaTeX Warning: Reference `speduptime' on page 14 undefined on input line 184.
+
+[14]) [15]
 (//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Results.tex)
 
 (//stuhome/HomeDrive2$\1401562\GitHub\Honours-Project-Dissertation\Discussion.t
@@ -410,7 +430,7 @@ icle/pii/S0303264797017085
 
 Package natbib Warning: There were undefined citations.
 
-[14] (Dissertation.aux)
+[16] (Dissertation.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -419,13 +439,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 2536 strings out of 494846
- 39158 string characters out of 3175728
- 101198 words of memory out of 3000000
- 6123 multiletter control sequences out of 15000+200000
- 9013 words of font info for 32 fonts, out of 3000000 for 9000
+ 2564 strings out of 494846
+ 39969 string characters out of 3175728
+ 98970 words of memory out of 3000000
+ 6144 multiletter control sequences out of 15000+200000
+ 9181 words of font info for 33 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 41i,20n,25p,1289b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,20n,23p,1289b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
 <//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/install/fonts/t
 ype1/public/amsfonts/cm/cmbx10.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTe
 X Portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb><//StuHome/
@@ -444,10 +464,13 @@ onts/cm/cmr17.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs
 /install/fonts/type1/public/amsfonts/cm/cmr7.pfb><//StuHome/HomeDrive2$/1401562
 /Desktop/MikTeX Portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb><//StuHome/HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/install/fonts/
-type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Dissertation.pdf (17 pages, 294388 bytes).
+type1/public/amsfonts/cm/cmsy7.pfb><//StuHome/HomeDrive2$/1401562/Desktop/MikTe
+X Portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmti10.pfb><//StuHome/
+HomeDrive2$/1401562/Desktop/MikTeX Portable/texmfs/install/fonts/type1/public/a
+msfonts/cm/cmtt10.pfb>
+Output written on Dissertation.pdf (19 pages, 438516 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
+ 135 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
