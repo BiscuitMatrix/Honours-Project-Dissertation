@@ -6,37 +6,38 @@
 % cited in your text. This will only add to the confidence one can have in the assertion.
 
 \section{Literature Review}
+This chapter will identify the gap in research that forms the basis for the research question, by reviewing existing work on flocking and genetic algorithms, and focusing down from the wider fields of research it will frame the context of this research paper.
 
 \subsection{Flocking in Nature - Swarm Behaviour}
 Flocking algorithms draw a lot of their inspiration from the behaviour of flocks in the natural world \citep{flake1998computational}. As there are many examples of this behaviour in organisms across the planet, there is a lot of information and insight that can be gleaned on how to design these algorithms. Flocks are a kind of swarm behaviour, and looking at the broader set of behaviors can point to the interesting ways a flock could behave under certain conditions.
 
-	\paragraph{Decision Making}
-	The way decisions are made in a flock emerges is varied. The two main ways are via consensus and leadership. An interesting look at this can be found in the behaviour of pigeons. A study conducted into the behaviour of these birds in a flock \citep{Jorge2414} found that leadership initially emerged from younger pigeons in the flock, but as the flight went on older members of the flock led the group, the paper then goes on to discuss how social versus personal information affects the behaviour of the flock. What this displays, is how the extra experience of older members of the flock is taken advantage of in determining leadership and therefore the actions they take as a flock, in this way they build consensus on their leadership through the choices individual flock members make in their group. This is further confirmed in \textit{ 'Misinformed leaders lose influence over pigeon flocks' }\citet{doi:10.1098/rsbl.2016.0544}. What this displays is the interaction between consensus and leadership in making decisions, and demonstrates that they can both be present in the process.
+\paragraph{Decision Making}
+The way decisions are made in a flock emerges is varied. The two main ways are via consensus and leadership. An interesting look at this can be found in the behaviour of pigeons. A study conducted into the behaviour of these birds in a flock \citep{Jorge2414} found that leadership initially emerged from younger pigeons in the flock, but as the flight went on older members of the flock led the group, the paper then goes on to discuss how social versus personal information affects the behaviour of the flock. What this displays, is how the extra experience of older members of the flock is taken advantage of in determining leadership and therefore the actions they take as a flock, in this way they build consensus on their leadership through the choices individual flock members make in their group. This is further confirmed in \textit{ 'Misinformed leaders lose influence over pigeon flocks' }\citet{doi:10.1098/rsbl.2016.0544}. What this displays is the interaction between consensus and leadership in making decisions, and demonstrates that they can both be present in the process.
 	
-	% Here we can mention eusocial insects and their very dominant hierarchy (e.g. Queens of the hive/nest) Queens can be picked though! This may be interesting to explore
-	% The main thing we can explore here is consensus vs leadership
-	\paragraph{Eusocial Behaviour}
-	While not specifically flocking as it pertains to biology, this falls under the bracket of swarm behaviour and has interesting relationships which can inform us on how to expand flocking algorithms in beneficial ways. For example, communication can occur in a variety of ways; ants use pheromones to find shortest paths \citep{DORIGO199773}; bees use a waggle dance to inform others in the hive of food sources and potential new nest sites \citep{AlToufailia2013}, and % Expand on this from here...
+% Here we can mention eusocial insects and their very dominant hierarchy (e.g. Queens of the hive/nest) Queens can be picked though! This may be interesting to explore
+% The main thing we can explore here is consensus vs leadership
+\paragraph{Eusocial Behaviour}
+While not specifically flocking as it pertains to biology, this falls under the bracket of swarm behaviour and has interesting relationships which can inform us on how to expand flocking algorithms in beneficial ways. For example, communication can occur in a variety of ways; ants use pheromones to find shortest paths \citep{DORIGO199773}; bees use a waggle dance to inform others in the hive of food sources and potential new nest sites \citep{AlToufailia2013}, and % Expand on this from here...
 	
-	\paragraph{Dynamic Adaptation to Environmental Pressures}
+\paragraph{Dynamic Adaptation to Environmental Pressures}
 	
-	\paragraph{Learning and Curiosity}
+\paragraph{Learning and Curiosity}
 
-	\paragraph{Flocking and Emergence}
-	%\paragraph{The path from subsocial to eusocial behaviour}
-	% This could be a potentially interesting path to go down here in terms of how it would relate to the evolution in genetic algorithms and potential first steps the genetic algorithm should take in terms of its path towards smart flocking behaviour
+\paragraph{Flocking and Emergence}
+%\paragraph{The path from subsocial to eusocial behaviour}
+% This could be a potentially interesting path to go down here in terms of how it would relate to the evolution in genetic algorithms and potential first steps the genetic algorithm should take in terms of its path towards smart flocking behaviour
 	
-	\paragraph{The Advantages of Flocking to Species} % Coul replace the why this is relevant paragraph
+\paragraph{The Advantages of Flocking to Species} % Coul replace the why this is relevant paragraph
 	
-	\paragraph{Why this is relevant}
-	This is relevant as it inspires the work done in flocking algorithms and the work of similar fields, which has influence on the design of said algorithms. 
+\paragraph{Why this is relevant}
+This is relevant as it inspires the work done in flocking algorithms and the work of similar fields, which has influence on the design of said algorithms. 
 
 
 \subsection{Flocking Algorithm}
 Flocking algorithms draw inspiration from the natural world, however the design of these algorithms involves mathematical approximations of the behaviours involved, the interactions that take place and the systems overall.
 
-	\paragraph{Reynolds Boids}
-	In the often cited paper when it comes to discussions of flocks: \textit{'Flocks, herds and schools: A distributed behavioral model'} \citet{Reynolds:1987:FHS:37402.37406}, we see that we have the three main forces that make up a basic flock: Separation, Cohesion and Alignment. These are approximative forces that represent the aggregate motion of a collection of boids (representing flock members, which in turn can represent different species in nature).
+\paragraph{Reynolds Boids}
+In the often cited paper when it comes to discussions of flocks: \textit{'Flocks, herds and schools: A distributed behavioral model'} \citet{Reynolds:1987:FHS:37402.37406}, we see that we have the three main forces that make up a basic flock: Separation, Cohesion and Alignment. These are approximative forces that represent the aggregate motion of a collection of boids (representing flock members, which in turn can represent different species in nature).
 	
 	\paragraph{Expanded Boids} % Potential for adding relevant equations here but they may be more relevant to be placed in the method
 	There are many variations of the expanded boids model [insert citations here] dependent upon what is necessary for the research conducted. The expanded model presented by \citet{4604156} is very useful as their implementation is very clear and displays useful expansions to the model for this research. It adds functionality for running away from predators, attraction to food sources, relations as towards other neutral flocks, the ability to search its surroundings, boundary conditions, and obstacle avoidance. All of which are useful in designing more natural flocking behaviour.

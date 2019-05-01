@@ -11,7 +11,7 @@ GitHub Desktop was used as the tool for source control, ensuring risks to the pr
 The application simulated an environment in which two flocks interact (one of which is improved via a genetic algorithm) within a limited space of scarce resources, with the aim of finding out if a flocking algorithm improved by a genetic algorithm can out-compete one without.
 
 To answer the research question required removing as many base assumptions as possible. To do this, three core decisions were made: The environment would be limited so as to keep the flocks in competition with each other, ensuring the flocks would interact; there would be a limited amount of resources in the environment: less than that required to support two full populations of flocks - this would drive the flocks to compete over resources spawned in the environment; finally there would be only two flocks: one improved by a genetic algorithm over simulated generations and one produced through a tested expanded flocking algorithm design. This ensured a competitive environment in which the effects of decisions made by genetic algorithm could be singled out, and the data producing more accurate results. Fig.\ref{fig:EnvScrnshot} displays a screenshot of this environment in action: the red entities representing the regular flock; the blue entities representing the genetic algorithm modified flock; the green entities representing resources in the scene and the white area displaying the space in which the boids can move and interact.
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{../Images/EnvironmentScreenshot.png}
 	\caption{A screenshot of the test environment in action}
 	\label{fig:EnvScrnshot}
@@ -52,7 +52,7 @@ The first of the boid forces, Cohesion pulls the boid in the direction of flock 
 Where $LFCVector$ represents the vector from the boid to the local flock centre, $LFCPos$ is the position of the local flock centre, $BoidPos$ is the position of the boid and $FlockSize$ is the number of flock members as a whole.
 
 This can be seen visually represented in Fig.\ref{fig:cohesion}. It displays the cohesion force increasing as a boid moved away from the local flock centre.
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{../Images/cohesion.png}
 	\caption{A Graph Displaying the Cohesion Boid Force}
 	\label{fig:cohesion}
@@ -71,7 +71,7 @@ Alignment is a vector which accelerates the boid in the average direction of its
 Where $LFVelVector$ is the average velocity of the local flock members, and $LFCPos$ and $BoidPos$ are the same as in Eq.\ref{cohesion_equation}.
 
 This can be seen visually represented in Fig.\ref{fig:alignment}. It displays the alignment force increasing as a boid moved closer to the local flock centre.
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{../Images/alignment.png}
 	\caption{A Graph Displaying the Alignment Boid Force}
 	\label{fig:alignment}
@@ -89,7 +89,7 @@ Separation is the force that stops the boids from getting too close together. By
 Where $ClosestNeighbourVector$ is the vector from the boid to the closest neighbour, and $NeighbourCount$ is the number of neighbouring boids.
 
 This can be seen visually represented in Fig.\ref{fig:separation}. It displays the separation force increasing as the displacement between the nearest flock member and itself decreased. This separation force increased for each neighbouring boid.
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{../Images/separation.png}
 	\caption{A Graph Displaying the Separation Boid Force}
 	\label{fig:separation}
@@ -107,7 +107,7 @@ This provides an accelerative force toward the nearest resource in the environme
 Where $ClosestResourceVector$ is the vector pointing from the void to the closest resource to it, and $|ClosestResource|$ is the distance to the closest resource.
 
 This can be seen visually represented in Fig.\ref{fig:foodattraction}. It displays relationship the food attraction force has to the displacement squared of the food resource to the boid. It represents two increases in the food attraction force and a minima inbetween, where the food attraction force decreases as the boid gets near to it, but then switches to an increase past a certain point.
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{../Images/foodattraction.png}
 	\caption{A Graph Displaying the Food Attraction Boid Force}
 	\label{fig:foodattraction}
@@ -125,7 +125,7 @@ This is a vector that produces a repelling force away from another flock, and in
 Where $OtherFlockVector$ is the vector pointing from the boid to the average position of another flock within interactable range, and $AvgOtherFlockPos$ is the vector to the average position of another flock within interactable range.
 
 This can be seen visually represented in Fig.\ref{fig:flockavoidance}. It displays the flock avoidance force increasing as a boid moved closer to the local flock centre.
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{../Images/flockavoidance.png}
 	\caption{A Graph Displaying the Flock Avoidance Boid Force}
 	\label{fig:flockavoidance}
@@ -136,7 +136,7 @@ This can be seen visually represented in Fig.\ref{fig:flockavoidance}. It displa
 %%%%%%%%%%%%%%%%%%%
 \subsection{Genetic Algorithm Design}
 The functionality for the genetic algorithm (GA) was spread over two classes - genetic\_algorithm and DNA - where the genetic\_algorithm class interacted with the flock and boid classes, and DNA interacted with the genetic\_algorithm and boid classes. The GA had a standard approach to its design which can be seen in Fig.\ref{fig:geneticflow}.
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{../Images/GAAlgorithm.png}
 	\caption{Flowchart displaying the process the GA takes to improve over time}
 	\label{fig:geneticflow}
